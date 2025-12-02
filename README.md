@@ -69,8 +69,8 @@ Using pure CSS gradients.
 
 ### 🧰 Tech Stack Used
 
-| Category: Tools Used |
-|---------|------------|
+Category: Tools Used 
+
 | Frontend: React, Vite |
 | UI Library: Material UI (MUI) |
 | API: OpenWeather API |
