@@ -1,0 +1,45 @@
+/* Wrapper for the weather info card */
+.InfoBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Icon for weather condition (sun, cloud, etc.) */
+.weather-icon {
+  font-size: 2rem;
+}
+
+/* Row: city name + icon aligned properly */
+.city-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* City name styling */
+.city-name {
+  font-weight: 600;
+}
+
+/* Container for temperature + humidity + details */
+.weather-details {
+  margin-top: 8px;
+}
+
+/* Spacing between detail rows */
+.weather-details p {
+  margin: 4px 0;
+}
+
+/* Main temperature (big number) */
+.temp-main {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+/* Small text under temperature (min/max/feels like) */
+.temp-sub {
+  opacity: 0.9;
+}

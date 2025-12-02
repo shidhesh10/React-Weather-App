@@ -1,0 +1,80 @@
+/* Wrapper for the entire search box */
+.SearchBox {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Form layout: aligns search input + button */
+.search-form {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Small top margin for search button */
+.search-btn {
+  margin-top: 4px !important;
+}
+
+/* Small inline error text (e.g., empty input) */
+.error-text {
+  color: #f97373;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+/* Error box design for major API errors (e.g., invalid city) */
+.errorBox {
+  margin-top: 15px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff4d4d, #d60000);
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 4px 14px rgba(255, 0, 0, 0.4);
+  animation: errorPop 0.25s ease-out;
+}
+
+/* Icon size inside error box */
+.errorIcon {
+  font-size: 1.2rem;
+}
+
+/* Error text styling inside the error box */
+.errorText {
+  letter-spacing: 0.3px;
+}
+
+/* Entry animation for error box */
+@keyframes errorPop {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Centers the error box container */
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Soft error message (for warnings or minor issues) */
+.error-msg {
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: rgba(255, 77, 77, 0.15);
+  border-left: 4px solid #ff4d4d;
+}
