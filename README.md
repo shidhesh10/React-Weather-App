@@ -71,12 +71,12 @@ Using pure CSS gradients.
 
 Category: Tools Used 
 
-| Frontend: React, Vite |
-| UI Library: Material UI (MUI) |
-| API: OpenWeather API |
-| Icons: MUI Icons |
-| Styling: Custom CSS, Glassmorphism, Gradients |
-| Backgrounds: Unsplash HD Images |
+Frontend: React, Vite 
+UI Library: Material UI (MUI)
+API: OpenWeather API
+Icons: MUI Icons
+Styling: Custom CSS, Glassmorphism, Gradients
+Backgrounds: Unsplash HD Images
 
 ---
 
